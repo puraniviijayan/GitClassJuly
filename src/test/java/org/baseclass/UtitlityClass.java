@@ -203,5 +203,17 @@ public class UtitlityClass {
 	public static void deleteCookies() {
 		driver.manage().deleteAllCookies();
 	}
+	
+	public void java() {
+		System.out.println("JAVA");
+	}
+
+	public void python() {
+		System.out.println("PYTHON");
+	}
+
+	public void js() {
+		System.out.println("JAVASCRIPT");
+	}
 
 }

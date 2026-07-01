@@ -34,3 +34,8 @@ Feature: Validation of adactin login web application
       | New York    | 2 - Two   | 24/01/2025  | 25/01/2025   | 1 - One       |
       | Paris       | 2 - Two   | 25/01/2025  | 26/01/2025   | 1 - One       |
       | Los Angeles | 2 - Two   | 26/01/2025  | 27/01/2025   | 1 - One       |
+      
+    Scenario: Validation of login page sucessfull
+    When User enters valid username and password
+    And Clicks on login button
+    Then Invalid login success message is display
