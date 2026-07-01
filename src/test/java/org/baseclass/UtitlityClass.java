@@ -204,6 +204,18 @@ public class UtitlityClass {
 		driver.manage().deleteAllCookies();
 	}
 	
+	public void apiTesting() {
+		System.out.println("Postman");
+	}
+
+	public void mobileTesting() {
+		System.out.println("Appium");
+	}
+
+	public void webTesting() {
+		System.out.println("Selenium");
+	}
+	
 	public void java() {
 		System.out.println("JAVA");
 	}
