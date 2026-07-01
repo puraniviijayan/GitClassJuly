@@ -203,7 +203,7 @@ public class UtitlityClass {
 	public static void deleteCookies() {
 		driver.manage().deleteAllCookies();
 	}
-
+	
 	public void apiTesting() {
 		System.out.println("Postman");
 	}
@@ -214,6 +214,18 @@ public class UtitlityClass {
 
 	public void webTesting() {
 		System.out.println("Selenium");
+	}
+	
+	public void java() {
+		System.out.println("JAVA");
+	}
+
+	public void python() {
+		System.out.println("PYTHON");
+	}
+
+	public void js() {
+		System.out.println("JAVASCRIPT");
 	}
 
 }
